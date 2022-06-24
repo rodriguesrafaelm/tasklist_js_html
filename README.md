@@ -1,5 +1,6 @@
 # tasklist_js_html
-Resolvendo um desafio.<br><br>
+Resolvendo um desafio.<br>
+O desafio era reproduzir um quadro de tarefas web tipo Trello com 3 colunas(todo, doing e done).<br><br>
 ## Guia:<br>
 url : https://rodriguesrafaelm.github.io/tasklist_js_html/ <br>
 Para inserir uma nova task, escreva o nome da mesma no campo inferior "Insira nome aqui" e clique na posição desejada logo abaixo do input.<br>
@@ -14,7 +15,7 @@ Arrastando só é possivel substituir uma pela outra. Para mover uma task sem su
 
 <h6>
 Minhas considerações:<br>
-O desafio era reproduzir um quadro de tarefas web tipo Trello com 3 colunas(todo, doing e done).<br>
+
 Eu limitei minhas fontes apenas às documentações e a uma pesquisa sobre o funcionamento do Trello que eu não conhecia.<br>
 Não usei nenhuma framework como react ou coisas do tipo por não ter estudado ainda.<br>
 Totalmente fora da minha zona de conforto, tentei explorar o máximo de lógica com javascript pra suprir minha falta de conhecimento em HTML e CSS.<br>
