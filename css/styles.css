@@ -109,9 +109,7 @@ body{
   .btn-nova-container{
     width: 60%;
   }
-  .clicado {
-    background-color: darkorange;
-  }
+  
 
   .add-nova-task{
     height: 1vh;
@@ -170,7 +168,9 @@ body{
     transform: scale(2)
   }
 
- 
+  .clicado {
+    background-color: darkorange !important;
+  } 
 
   @media (max-width: 820px) {
     .setas{
