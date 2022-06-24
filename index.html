@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciador de atividades</title>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/scripts.js"></script>
+</head>
+
+
+<body>
+    <div class="split">
+        <div id="id-A" class="nome-quadro quadroA add-color-a">
+            <div  class="add-nova-task">TO DO</div>
+        </div> 
+        <div id="id-B" class="nome-quadro quadroB add-color-b">
+            <div class="add-nova-task">DOING</div>            
+        </div> 
+        <div id="id-C" class="nome-quadro quadroC add-color-c">
+            <div class="add-nova-task">DONE</div>
+            <div class="btn-doc"><a href="https://github.com/rodriguesrafaelm"><img src="images/github.ico" width="50%"></a></div>
+            <div class="btn-doc2">TUTORIAL</div>
+        </div>
+    </div>
+    <div class="split">
+        <div id="quadroA" class="quadro expandir">
+            
+        </div> 
+        <div id ="quadroB" class="quadro expandir">
+            
+        </div> 
+        <div id ="quadroC" class="quadro expandir">
+
+        </div>
+    </div>
+    <div class="setas">
+        <div class="setas-esquerda js-esquerda">←</div>
+        <div class="js-esquerda">Mover para a esquerda</div>
+        <div class="js-direita">Mover para a direita</div>
+        <div class="setas-direita js-direita">→</div>
+        </div>
+    <form class="split">
+        <input type="text" id="valor-input" class="input-rename" placeholder="Insira aqui o nome">
+        <button type="reset" class="input-button">LIMPAR INPUT</button>
+    </form>
+    <div class="botoes-config">
+        <div class="split btn-nova-container">
+        <div class="btn-nova js-botoes quadroA add-color-a">TO DO</div>
+        <div class="btn-nova js-botoes quadroB add-color-b">DOING</div>
+        <div class="btn-nova js-botoes quadroC add-color-c">DONE</div>
+        </div>
+        <div class="btn-renomear js-botoes"> MODIFICAR NOME </div>
+        <div class="btn-deletar js-botoes">REMOVER</div>
+        
+    
+    </div>
+</body>
+</html>
